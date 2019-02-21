@@ -13,6 +13,7 @@ jdk: oraclejdk8
 
 deploy:
   provider: releases
+  file:"$HOME/target/artifact-id.jar"
   api_key: "6b84b600f5611203c4944a26cee5c4c8388d33ec"
   skip_cleanup: true
   on:
